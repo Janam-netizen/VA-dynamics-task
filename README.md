@@ -1,3 +1,13 @@
+## Cloning repository
+
+
+To clone the repository type the following command
+
+```
+git clone https://github.com/Janam-netizen/VA-dynamics-task.git
+
+```
+
 ## Instructions on executing the program:
 
 
