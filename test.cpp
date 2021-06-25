@@ -41,6 +41,9 @@ void person::display_details(void)
     cout<< "surname:"<<s_name<<endl;
     cout<< "email:"<<email<<endl;
     cout<< "telno:"<<telno<<endl;
+    cout<< "street:"<<street<<endl;
+    cout<< "town:"<<town<<endl;
+    cout<< "country:"<<country<<endl;
     cout<<endl;
 
 
@@ -72,9 +75,13 @@ void read(){
 
 person p;
 ifstream fin("book.dat",ios::in | ios::binary);
-while(!fin.eof()){
+while(1){
 
-    fin.read((char *)&p,sizeof(p));
+    if( !fin.read((char *)&p,sizeof(p))){
+        break;
+    }
+
+   
 
     p.display_details();
 
@@ -98,7 +105,7 @@ while(fin.read((char *)&p1,sizeof(p1))){
     if (compare(p1,p)==1){
         flag=1;
 
-        p.display_details();
+        p1.display_details();
         break;
 
 

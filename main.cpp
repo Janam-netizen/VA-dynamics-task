@@ -12,10 +12,11 @@ person p;
 
 while(1){
 cout<<"Address book"<<endl<<endl;
-cout<<"\t Press (1) to add a new contact"<<endl
-    <<"\tPress (2) to remove a contact"<<endl
-    <<"\tPress (3) to search for contact"<<endl<<endl;
-cout<<"\tPress (4) to read "<<endl;
+cout<<" Press (1) and hit ENTER to add a new contact"<<endl
+    <<"Press (2) and hit ENTER to remove a contact"<<endl
+    <<"Press (3) and hit ENTER to search for contact"<<endl<<endl;
+cout<<"Press (4) and hit ENTER to read "<<endl;
+cout<<"Press (5) and hit ENTER to quit"<<endl;
 cin >>choice;
 if (choice==5){
     break;
