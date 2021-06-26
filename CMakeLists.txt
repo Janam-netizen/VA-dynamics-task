@@ -11,5 +11,5 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_C_FLAGS "-std=c99 -fdump-rtl-expand")
 
 #creates an executable by compiling and linking a list of space separated C files.
-add_executable(a.out test.cpp main.cpp)
+add_executable(a.out methods.cpp main.cpp)
 
