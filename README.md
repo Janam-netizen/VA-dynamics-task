@@ -32,7 +32,7 @@ For inrstructions to install CMake please click [here](https://cmake.org/install
 
 Ensure that the following files are present
 ```
-header.h test.cpp main.cpp
+header.h methods.cpp main.cpp CMakeLists.txt
 ```
 
 Then type the following command in the the given sequence:
